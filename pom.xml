@@ -2,12 +2,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.ssm.messgepush</groupId>
-	<artifactId>messgepush</artifactId>
+	<groupId>com.ssm.springboot.tomcat</groupId>
+	<artifactId>springboot-tomcat</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>messgepush</name>
+	<name>springboot-tomcat</name>
 	<url>http://maven.apache.org</url>
 
 	<!-- Spring Boot 启动父依赖 -->
@@ -64,7 +64,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>messgepush</finalName>
+		<finalName>springboot-tomcat</finalName>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
